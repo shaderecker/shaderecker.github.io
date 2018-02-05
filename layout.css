@@ -1,5 +1,11 @@
 body {
     margin: 0;
+    background-color: #F5F5F5;
+}
+
+p {
+  line-height: 1.5rem;
+  margin-bottom: 1.5rem;
 }
 
 #twitter {
@@ -24,9 +30,7 @@ body {
     position: fixed;
     bottom: 0;
     right: 0;
-    width: 150px;
-    font-size: 20px;
-    margin-right: 1vw;
+    margin-right: 1em;
 }
 
 a {
@@ -34,7 +38,7 @@ a {
 }
 
 .header {
-    background-color: #F1F1F1;
+    background-color: #CFD8DC;
     text-align: center;
     padding: 20px;
 }
@@ -51,4 +55,38 @@ a {
         -ms-user-select: none;      /* Internet Explorer/Edge */
             user-select: none;      /* Non-prefixed version, currently
                                        supported by Chrome and Opera */
+}
+
+img {
+    max-width: 16%;
+    height: auto;
+}
+
+h1 {
+    font-size: 24px;
+    color: #212121;
+}
+
+@media screen and (min-width: 50em) {
+  h1 {
+    font-size: 3vw;
+  }
+}
+
+@media screen and (min-width: 160em) {
+  h1 {
+    font-size: 5em;
+  }
+}
+
+@media screen and (min-width: 50em) {
+  p {
+    font-size: 2vw;
+  }
+}
+
+@media screen and (min-width: 75em) {
+  p {
+    font-size: 1.5em;
+  }
 }
