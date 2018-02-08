@@ -26,13 +26,6 @@ p {
   font-family: 'Roboto', sans-serif;
 }
 
-#footer {
-    position: fixed;
-    bottom: 0;
-    right: 0;
-    margin-right: 1em;
-}
-
 a {
     color: #FFC107;
 }
@@ -62,6 +55,11 @@ img {
     height: auto;
 }
 
+.icon {
+    max-width: 5%;
+    height: auto;
+}
+
 h1 {
     font-size: 24px;
     color: #212121;
@@ -71,6 +69,10 @@ h1 {
 @media screen and (max-width: 50em) {
   img {
     max-width: 25%;
+    height: auto;
+  }
+  .icon {
+    max-width: 10%;
     height: auto;
   }
 }
