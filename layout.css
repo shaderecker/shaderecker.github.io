@@ -1,7 +1,6 @@
 body {
     margin: 0;
     background-color: #F5F5F5;
-    overflow: hidden;
 }
 
 .bio {
@@ -64,8 +63,8 @@ body {
 }
 
 #footer_content {
-    margin-left: 3em;
-    margin-right: 5em;
+    margin-left: 1em;
+    margin-right: 4em;
 }
 
 #close {
@@ -92,14 +91,14 @@ body {
 }
 
 footer {
-    position: absolute;
+    position: fixed;
     left: 0;
     bottom: 0;
     width: 100%;
     background-color: #FFB300;
-    color: #212121;
     text-align: center;
     font-size: 15px;
+    overflow: hidden;
 } 
 
 img {
