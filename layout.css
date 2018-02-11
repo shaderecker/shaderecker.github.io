@@ -79,6 +79,10 @@ body {
     margin-right: 4em;
 }
 
+span.wrap {
+    display: inline-block;
+}
+
 #close {
     position: absolute;
     right: 0;
