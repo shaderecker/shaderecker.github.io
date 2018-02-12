@@ -26,6 +26,23 @@ body {
   font-family: 'Roboto', sans-serif;
 }
 
+.bio_link:link {
+    color: #FFB300;
+}
+
+.bio_link:hover {
+    color: #FFC107;
+}
+
+.bio_link:active {
+    color: #FFB300;
+}
+
+.bio_link:visited {
+    color: #FFA000;
+}
+
+
 .footer_link:link {
     color: #616161;
 }
