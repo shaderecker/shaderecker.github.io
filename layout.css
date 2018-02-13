@@ -4,19 +4,8 @@ body {
 }
 
 .bio {
-  line-height: 1.5rem;
-  margin-bottom: 1.5rem;
-}
-
-#twitter {
-    margin: 5px auto;
-    text-align: center;
-    border-radius: 5px;
-    box-shadow: 4px 4px 5px #262626;
-    background-color: rgb(255,255,255);
-    max-width: 300px;
-    height: 74vh;
-    display: block;
+  /*line-height: 1.5rem;
+  margin-bottom: 1.5rem;*/
 }
 
 * {
@@ -62,11 +51,46 @@ body {
 .header {
     background-color: #CFD8DC;
     text-align: center;
-    padding: 20px;
+    padding-top: 1px;
+    padding-bottom: 10px;
 }
 
 #main {
     text-align: center;
+}
+
+#bio_container {
+    margin: 0 auto;
+}
+
+@media screen and (max-width: 450px) {
+  #bio_container {
+    max-width: 70vw;
+  }
+}
+
+@media screen and (min-width: 450px) and (max-width: 550px) {
+  #bio_container {
+    max-width: 60vw;
+  }
+}
+
+@media screen and (min-width: 550px) and (max-width: 650px) {
+  #bio_container {
+    max-width: 50vw;
+  }
+}
+
+@media screen and (min-width: 650px) and (max-width: 750px) {
+  #bio_container {
+    max-width: 40vw;
+  }
+}
+
+@media screen and (min-width: 750px) {
+  #bio_container {
+    max-width: 30vw;
+  }
 }
 
 .unselect {
@@ -135,12 +159,12 @@ footer {
 } 
 
 img {
-    max-width: 16%;
+    /*max-width: 16%;*/
     height: auto;
 }
 
 .icon {
-    max-width: 5%;
+    /*max-width: 5%;*/
     height: auto;
 }
 
@@ -150,16 +174,57 @@ h1 {
     letter-spacing: 2px;
 }
 
-@media screen and (max-width: 50em) {
+h2 {
+    color: #212121;
+    letter-spacing: 1px;
+}
+
+
+@media screen and (max-width: 450px) {
   img {
     max-width: 25%;
-    height: auto;
   }
   .icon {
-    max-width: 10%;
-    height: auto;
+    max-width: 15%;
   }
 }
+
+@media screen and (min-width: 450px) and (max-width: 550px) {
+  img {
+    max-width: 22%;
+  }
+  .icon {
+    max-width: 14%;
+  }
+}
+
+@media screen and (min-width: 550px) and (max-width: 650px) {
+  img {
+    max-width: 20%;
+  }
+  .icon {
+    max-width: 11%;
+  }
+}
+
+@media screen and (min-width: 650px) and (max-width: 750px) {
+  img {
+    max-width: 18%;
+  }
+  .icon {
+    max-width: 9%;
+  }
+}
+
+@media screen and (min-width: 750px) {
+  img {
+    max-width: 16%;
+  }
+  .icon {
+    max-width: 5%;
+  }
+}
+
 
 @media screen and (min-width: 50em) {
   h1 {
@@ -172,6 +237,39 @@ h1 {
     font-size: 5em;
   }
 }
+
+
+@media screen and (max-width: 450px) {
+  h2 {
+    font-size: 20px;
+  }
+}
+
+@media screen and (min-width: 450px) and (max-width: 550px) {
+  h2 {
+    font-size: 24px;
+  }
+}
+
+@media screen and (min-width: 550px) and (max-width: 650px) {
+  h2 {
+    font-size: 26px;
+  }
+}
+
+@media screen and (min-width: 650px) and (max-width: 750px) {
+  h2 {
+    font-size: 28px;
+  }
+}
+
+@media screen and (min-width: 750px) {
+  h2 {
+    font-size: 30px;
+  }
+}
+
+
 
 @media screen and (min-width: 50em) {
   .bio {
