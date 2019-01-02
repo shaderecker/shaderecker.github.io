@@ -16,36 +16,19 @@ body {
   font-weight: normal;
 }
 
-.bio_link:link {
-    color: #FFB300;
-}
-
-.bio_link:hover {
-    color: #FFC107;
-}
-
-.bio_link:active {
-    color: #FFB300;
-}
-
-.bio_link:visited {
-    color: #FFA000;
-}
-
-
-.footer_link:link {
+.link:link {
     color: #616161;
 }
 
-.footer_link:hover {
+.link:hover {
     color: #757575;
 }
 
-.footer_link:active {
+.link:active {
     color: #616161;
 }
 
-.footer_link:visited {
+.link:visited {
     color: #424242;
 }
 
