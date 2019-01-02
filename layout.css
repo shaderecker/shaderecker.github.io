@@ -3,11 +3,6 @@ body {
     background-color: #F5F5F5;
 }
 
-.bio {
-  /*line-height: 1.5rem;
-  margin-bottom: 1.5rem;*/
-}
-
 * {
   -webkit-box-sizing: border-box;
      -moz-box-sizing: border-box;
@@ -95,10 +90,6 @@ body {
     margin-bottom: 1em;
 }
 
-#info:active {
-    
-}
-
 #footer_content {
     margin-left: 1em;
     margin-right: 4em;
@@ -127,10 +118,6 @@ span.wrap {
   to {transform: rotate(180deg);}
 }
 
-#close:active {
-    
-}
-
 footer {
     position: fixed;
     left: 0;
@@ -140,16 +127,6 @@ footer {
     text-align: center;
     font-size: 15px;
     overflow: hidden;
-}
-
-img {
-    /*max-width: 16%;*/
-    height: auto;
-}
-
-.icon {
-    /*max-width: 5%;*/
-    height: auto;
 }
 
 h1 {

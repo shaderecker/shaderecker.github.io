@@ -1,51 +1,52 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-<title>Sebastian Haderecker</title>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
-<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-<link rel="stylesheet" type="text/css" href="layout.css">
-<link rel="shortcut icon" href="favicon.png">
-<meta name="theme-color" content="#FFC107">  <!--For Chrome Tab Color-->
+    <title>Sebastian Haderecker</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="layout.css">
+    <link rel="shortcut icon" href="favicon.png">
+    <meta name="theme-color" content="#FFC107">  <!--For Chrome Tab Color-->
 </head>
+
 <body>
+    <div class="header unselect">
+        <h1>Sebastian Haderecker</h1>
+        <img src="logo.png" alt="Logo">
+    </div>
 
-<div class="header unselect">
-<h1>Sebastian Haderecker</h1>
-<img src="logo.png" alt="Logo">
-</div>
+    <div id="main" class="unselect">
+        <div id="bio_container">
+            <p class="bio">Randomly experimenting with Java and Android.</p>
+            <p class="bio">I love designing and being creative.</p>
+            <p class="bio">Also HTML/CSS and my Raspberry Pi.</p>
+            <p class="bio">Check out some of my projects in my <a class="a_link" href="portfolio">Portfolio</a> (soon).</p>
+        </div>
+        
+        <h2>Me on the Web</h2>
+        <a href="https://github.com/TheHADILP" target="_blank" rel="noopener"><img src="github.svg" alt="GitHub" class="icon"></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <a href="https://twitter.com/SHaderecker" target="_blank" rel="noopener"><img src="tweet.svg" alt="Twitter" class="icon"></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <a href="https://www.instagram.com/shaderecker/" target="_blank" rel="noopener"><img src="instagram.png" alt="Instagram" class="icon"></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <a href="https://www.linkedin.com/in/sebastian-haderecker/" target="_blank" rel="noopener"><img src="linkedin.png" alt="LinkedIn" class="icon"></a>
+    </div>
 
-<div id="main" class="unselect">
-<div id="bio_container">
-<p class="bio">Randomly experimenting with Java and Android.</p>
-<p class="bio">I love designing and being creative.</p>
-<p class="bio">Also HTML/CSS and my Raspberry Pi.</p>
-<p class="bio">Check out some of my projects in my <a class="a_link" href="portfolio">Portfolio</a> (soon).</p>
-</div>
-<h2>Me on the Web</h2>
-<a href="https://github.com/TheHADILP" target="_blank" rel="noopener"><img src="github.svg" alt="GitHub" class="icon"></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-<a href="https://twitter.com/SHaderecker" target="_blank" rel="noopener"><img src="tweet.svg" alt="Twitter" class="icon"></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-<a href="https://www.instagram.com/shaderecker/" target="_blank" rel="noopener"><img src="instagram.png" alt="Instagram" class="icon"></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-<a href="https://www.linkedin.com/in/sebastian-haderecker/" target="_blank" rel="noopener"><img src="linkedin.png" alt="LinkedIn" class="icon"></a>
-<br>
-<br>
-<br>
-<br>
-</div>
+    <i class="material-icons unselect" id="info" onclick="expandFooter()">info</i>
 
-<i class="material-icons unselect" id="info" onclick="expandFooter()">info</i>
+    <footer class="unselect" id="footer">
+        <div id="footer_content">
+            <p>&copy; 2019 Sebastian Haderecker</p>
+            <p>Material icons from <a class="a_link" href="https://material.io/icons/" target="_blank" rel="noopener">material.io</a><span class="wrap">&nbsp;&nbsp;&nbsp;&nbsp;Twitter, Tweet, Retweet and the Twitter logo are trademarks of Twitter, Inc. or its affiliates.</span></p>
+        </div>
+        
+        <i class="material-icons unselect" id="close" onclick="closeFooter()">cancel</i>
+        
+    </footer>
 
-<footer class="unselect" id="footer">
-<div id="footer_content">
-<p>Copyright &copy; 2019 Sebastian Haderecker</p>
-<p>Material icons from <a class="a_link" href="https://material.io/icons/" target="_blank" rel="noopener">material.io</a><span class="wrap">&nbsp;&nbsp;&nbsp;&nbsp;Twitter, Tweet, Retweet and the Twitter logo are trademarks of Twitter, Inc. or its affiliates.</span></p>
-</div>
-<i class="material-icons unselect" id="close" onclick="closeFooter()">cancel</i>
-</footer>
-
-<script src="footer.js"></script>
+    <script src="footer.js"></script>
 
 </body>
+
 </html>
