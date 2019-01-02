@@ -87,7 +87,7 @@ body {
     right: 0;
     bottom: 0;
     margin-right: 1em;
-    margin-bottom: 1em;
+    margin-bottom: 0.5em;
 }
 
 #footer_content {
@@ -104,7 +104,7 @@ span.wrap {
     right: 0;
     bottom: 0;
     margin-right: 1em;
-    margin-bottom: 1em;
+    margin-bottom: 0.5em;
 }
 
 #close:hover {
