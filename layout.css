@@ -16,19 +16,19 @@ body {
   font-weight: normal;
 }
 
-.link:link {
+.a_link:link {
     color: #616161;
 }
 
-.link:hover {
+.a_link:hover {
     color: #757575;
 }
 
-.link:active {
+.a_link:active {
     color: #616161;
 }
 
-.link:visited {
+.a_link:visited {
     color: #424242;
 }
 
