@@ -231,6 +231,25 @@ h2 {
 }
 
 
+@media screen and (max-width: 60em) {
+  .bio {
+    line-height: 1.5rem;
+  }
+}
+
+@media screen and (min-width: 60em) {
+  .bio {
+    line-height: 2rem;
+  }
+}
+
+@media screen and (min-width: 75em) {
+  .bio {
+    line-height: 2.5rem;
+  }
+}
+
+
 @media screen and (min-width: 50em) {
   .bio {
     font-size: 2vw;
