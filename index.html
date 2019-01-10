@@ -12,30 +12,33 @@
 </head>
 
 <body>
-    <div class="header unselect">
+    <div class="header">
         <h1>Sebastian Haderecker</h1>
-        <img src="logo.png" alt="Logo" id="logo">
+        <img src="logo.png" alt="Logo" id="logo" class="unselect">
     </div>
 
-    <div id="main" class="unselect">
+    <div id="main">
         <div id="bio_container">
             <p class="bio">I'm interested in Android, Docker, Python and Cloud Technology.<br>
             I love designing and being creative.<br>
             Also HTML/CSS and my Raspberry Pi.<br>
             Check out some of my projects in my <a class="a_link" href="portfolio">Portfolio</a> (soon).</p>
         </div>
-        
+
         <h2>Me on the Web</h2>
-        <a href="https://github.com/TheHADILP" target="_blank" rel="noopener"><img src="github.svg" alt="GitHub" class="icon"></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-        <a href="https://twitter.com/SHaderecker" target="_blank" rel="noopener"><img src="tweet.svg" alt="Twitter" class="icon"></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-        <a href="https://www.instagram.com/shaderecker/" target="_blank" rel="noopener"><img src="instagram.svg" alt="Instagram" class="icon"></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-        <a href="https://www.linkedin.com/in/sebastian-haderecker/" target="_blank" rel="noopener"><img src="linkedin.svg" alt="LinkedIn" class="icon"></a>
-        <br><br><br> <!--Spacing for Mobile Landscape-->
+
+        <div class="unselect">
+            <a href="https://github.com/TheHADILP" target="_blank" rel="noopener"><img src="github.svg" alt="GitHub" class="icon"></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <a href="https://twitter.com/SHaderecker" target="_blank" rel="noopener"><img src="tweet.svg" alt="Twitter" class="icon"></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <a href="https://www.instagram.com/shaderecker/" target="_blank" rel="noopener"><img src="instagram.svg" alt="Instagram" class="icon"></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <a href="https://www.linkedin.com/in/sebastian-haderecker/" target="_blank" rel="noopener"><img src="linkedin.svg" alt="LinkedIn" class="icon"></a>
+            <br><br><br> <!--Spacing for Mobile Landscape-->
+        </div>
     </div>
 
-	<img src="material_icons/info.svg" alt="Info" class="material-icons unselect" id="info" onclick="expandFooter()">
+    <img src="material_icons/info.svg" alt="Info" class="material-icons unselect" id="info" onclick="expandFooter()">
 
-    <footer class="unselect" id="footer">
+    <footer id="footer">
         <div id="footer_content">
             <p>
                 <span class="wrap">&copy; 2019 Sebastian Haderecker&nbsp;&nbsp;</span>
@@ -43,9 +46,9 @@
                 <span class="wrap">&nbsp;&nbsp;Twitter, Tweet, Retweet and the Twitter logo are trademarks of Twitter, Inc. or its affiliates.</span>
             </p>
         </div>
-        
+
         <img src="material_icons/cancel.svg" alt="Close" class="material-icons unselect" id="close" onclick="closeFooter()">
-        
+
     </footer>
 
     <script src="footer.js"></script>
