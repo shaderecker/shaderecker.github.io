@@ -93,6 +93,7 @@ body {
     bottom: 0;
     margin-right: 0.75em;
     margin-bottom: 0.5em;
+    cursor: pointer;
 }
 
 #close:hover {
