@@ -37,6 +37,7 @@ body {
 #logo {
     box-shadow: 2px 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     border-radius: 50%;
+    pointer-events: none;
 }
 
 #main {
@@ -95,6 +96,10 @@ body {
     margin-bottom: 0.5em;
 }
 
+#info:hover, #close:hover {
+    cursor: pointer;
+}
+
 #close:hover {
     animation-name: rotate;
     animation-duration: 0.4s;
@@ -104,6 +109,15 @@ body {
 @keyframes rotate {
   from {transform: rotate(0);}
   to {transform: rotate(180deg);}
+}
+
+@font-face {
+  font-family: 'Material Icons';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Material Icons'),
+       local('MaterialIcons-Regular'),
+       url(material_icons/MaterialIcons-Regular.woff2) format('woff2');
 }
 
 .material-icons {
