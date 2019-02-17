@@ -12,6 +12,16 @@ html, body {
   font-weight: normal;
 }
 
+.unselect {
+    -webkit-touch-callout: none;    /* iOS Safari */
+    -webkit-user-select: none;      /* Safari */
+     -khtml-user-select: none;      /* Konqueror HTML */
+       -moz-user-select: none;      /* Firefox */
+        -ms-user-select: none;      /* Internet Explorer/Edge */
+            user-select: none;      /* Non-prefixed version, currently
+                                       supported by Chrome and Opera */
+}
+
 .a_link:link {
     color: #616161;
 }
@@ -42,6 +52,8 @@ html, body {
     display: block;
     /* Spacing to top */
     margin-top: 1vh;
+
+    pointer-events: none;
 }
 
 h1 {
