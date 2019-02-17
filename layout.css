@@ -96,6 +96,10 @@ body {
     margin-bottom: 0.5em;
 }
 
+#info:hover, #close:hover {
+    cursor: pointer;
+}
+
 #close:hover {
     animation-name: rotate;
     animation-duration: 0.4s;
