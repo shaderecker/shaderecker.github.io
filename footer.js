@@ -1,12 +1,7 @@
-var el = document.getElementById('footer');
-    el.style.display = 'none';
-
 function expandFooter() {
-    var el = document.getElementById('footer');
-        el.style.display = 'inherit';
+    document.getElementById('footer').classList.add('footer-active');
     }
-    
+
 function closeFooter() {
-    var el = document.getElementById('footer');
-        el.style.display = 'none';
+    document.getElementById('footer').classList.remove('footer-active');
     }
